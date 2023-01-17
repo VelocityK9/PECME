@@ -2,7 +2,7 @@
     {
       "ident": "PECME",
       "download_url": "https://github.com/VelocityK9/PECME/releases/download/PECME/PECME.zip",
-      "patchnotes_url": "test2",
+      "patchnotes_url": "https://github.com/VelocityK9/PECME/blob/main/Changelog.md",
       "version": "1"
     }
   ]
