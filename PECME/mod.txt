@@ -4,12 +4,11 @@
 	"author" : "Xironix",
 	"version" : "1",
 	"priority" : 0,
-	"image" : "img.png",
 	"updates": [
         {
             "identifier": "PECME",
             "host": {
-				"meta": "test"
+				"meta": "https://raw.githubusercontent.com/VelocityK9/PECME/main/meta_pecme.json"
 			}
         }
     ],
