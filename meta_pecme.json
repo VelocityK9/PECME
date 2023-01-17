@@ -1,7 +1,7 @@
 [
     {
       "ident": "PECME",
-      "download_url": "test",
+      "download_url": "https://github.com/VelocityK9/PECME/releases/download/PECME/PECME.zip",
       "patchnotes_url": "test2",
       "version": "1"
     }
