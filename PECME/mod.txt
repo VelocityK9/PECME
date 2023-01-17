@@ -1,0 +1,22 @@
+{
+	"name" : "PECME",
+	"description" : "Allows you to edit the Pocket ECM duration",
+	"author" : "Xironix",
+	"version" : "1",
+	"priority" : 0,
+	"image" : "img.png",
+	"updates": [
+        {
+            "identifier": "PECME",
+            "host": {
+				"meta": "test"
+			}
+        }
+    ],
+	"hooks" : [
+
+		{"hook_id" : "lib/units/beings/player/playerinventory", "script_path" : "pecme.lua"},
+		{"hook_id" : "lib/managers/menumanager", "script_path" : "Options.lua"},
+
+	]
+}

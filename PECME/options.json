@@ -1,0 +1,29 @@
+{
+	"menu_id": "PECME_options_menu",
+	"parent_menu_id": "blt_options",
+	"title": "PECME_options_title",
+	"back_callback": "PECMESave",
+	"items": [
+		{
+			"type": "toggle",
+			"callback": "PECMEToggleOption",
+			"id": "duration_edit",
+			"value": "duration_edit",
+			"title": "Enable_PECME_title",
+			"description": "Enable_PECME_description"
+		},
+		
+		{
+			"type": "slider",
+			"callback": "PECMEGenericOption",
+			"id": "ECM_duration",
+			"value": "ECM_duration",
+			"title": "PECME_timer_title",
+			"description": "PECME_timer_description",
+			"min": 1,
+			"max": 100,
+			"step": 1
+		},
+		
+	]
+}
